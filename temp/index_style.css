@@ -1,0 +1,109 @@
+
+
+* {
+  box-sizing:border-box;
+}
+
+
+body{
+background-color : black;
+ /*  background: radial-gradient(closest-side,#808080, #000000 )*/;	
+}
+
+h1{
+	border-radius: 25px;
+	color: white;
+ background-color: #800000;
+ text-align: center;
+ padding :10px;
+ font-style:benton sans;
+}
+
+p{
+	text-align: center-right;
+	display: inline;
+	font-size: 24px;
+}
+
+#mar{
+  display: block;
+	/*background-color :white;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav {
+display:table; /* centers modern browsers */
+border-radius: 25px;
+margin:0 auto; /* centers modern browsers */
+  /*background-color: #333;*/
+
+}
+#nav ul {
+display:inline-block; /* IE6/7 haslayout trip-switch */
+}
+#nav ul {
+display:inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+#nav li {
+display:inline;
+}
+
+
+#nav a {
+  float: left;
+  color: #f2f2f2;
+  
+font-family: 'marvelregular';
+  text-align: center;
+  padding: 25px 65px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+#nav a:hover {
+	
+  
+background: radial-gradient(closest-side, #ff0000, #990000);
+border-radius: 25px;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+#nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+#nav #dif:hover {
+	
+    background: radial-gradient(#cc99ff , #660066 );
+border-radius: 25px;
+  color: black;
+}
+
+
+@font-face {
+    font-family: 'marvelregular';
+    src: url('marvelregular-dj83-webfont.woff2') format('woff2'),
+         url('marvelregular-dj83-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#w1{
+font-family: 'marvelregular';
+}
+
+img{
+	display : block;
+border-radius : 25px;
+margin : 0 auto;
+width : 100%;
+}
+
+
+
+

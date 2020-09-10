@@ -1,0 +1,256 @@
+
+
+* {
+  box-sizing:border-box;
+}
+
+
+body{
+background-color : black;
+ /*  background: radial-gradient(closest-side,#808080, #000000 )*/;	
+}
+
+h1{
+	border-radius: 25px;
+	color: white;
+ background-color: #800000;
+ text-align: left;
+ padding :10px;
+ font-style:benton sans;
+}
+
+p{
+	text-align: center-right;
+	display: inline;
+	font-size: 24px;
+}
+
+#mar{
+  display: block;
+  float: left;
+	/*background-color :white;*/
+}
+
+#nav {
+display:table; /* centers modern browsers */
+border-radius: 25px;
+margin:0 auto; /* centers modern browsers */
+  /*background-color: #333;*/
+
+}
+#nav ul {
+display:inline-block; /* IE6/7 haslayout trip-switch */
+}
+#nav ul {
+display:inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+#nav li {
+display:inline;
+}
+
+
+#nav a {
+  float: left;
+  color: #f2f2f2;
+  
+font-family: 'marvelregular';
+  text-align: center;
+  padding: 25px 45px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+
+#nav a:hover {
+	
+  
+background: radial-gradient(closest-side, #ff0000, #990000);
+border-radius: 25px;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+#nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+#nav #dif:hover {
+	
+    background: radial-gradient(#cc99ff , #660066 );
+border-radius: 25px;
+  color: black;
+}
+
+
+@font-face {
+    font-family: 'marvelregular';
+    src: url('marvelregular-dj83-webfont.woff2') format('woff2'),
+         url('marvelregular-dj83-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#w1{
+font-family: 'marvelregular';
+
+}
+
+	
+	
+.container {
+  padding: 44px;
+}
+
+.row:after {
+	
+	background-color : red;
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 { 
+	border-radius :25px;
+  float: right;
+  width: 76.66666%;
+  padding: 20px;
+  
+}
+
+.column-33 {
+/*background-image: linear-gradient(to right, #760C10 25%, #FCE154 45%,#D7BB2B 55%,  #ff0000 75% );*/
+
+	border-radius :25px;
+  width: 23.33333%;
+  padding: 20px;
+}
+
+
+#im{
+		border-style: groove;
+	  border-color: #990000;
+  border-left-style: none;
+background-image: linear-gradient(to right, #760C10 35%, #FCE154 65%,#D7BB2B 75%,#760C10 90%);	
+}
+
+#im2{
+	
+	
+	border-style: groove;
+	  border-color: #990000;
+  border-right-style: none;
+background-image: linear-gradient(to left, #760C10 25%, #FCE154 45%,#D7BB2B 55%,#760C10   75% );
+}
+
+#ca{
+	border-style: groove;
+	  border-color: #00264d;
+  border-left-style: none;
+background-image: linear-gradient(to right, #00264d 25%, #004080  35%, #FFFFFF 55%,  #C31D10 75%, #990000 85% );
+}
+
+#ca2{
+	
+	
+	border-style: groove;
+	  border-color: #00264d;
+  border-right-style: none;
+background-image: linear-gradient(to left, #00264d   25%, #004080 35%, #FFFFFF 55%,  #C31D10 65%, #990000 85% );
+}
+
+#ih{
+		border-style: groove;
+	  border-color: #437124;
+  border-left-style: none;
+background-image: linear-gradient(to right, #437124 25%, #5C9C31 45%, #B5D252 55%, #732673 85% );
+}
+
+#ih2{
+	
+	
+	border-style: groove;
+	  border-color: #437124;
+  border-right-style: none;
+background-image: linear-gradient(to left, #437124 25%, #5C9C31 45%, #B5D252 65%, #71706E 75%, #732673 85% );
+}
+
+#os{
+		border-style: groove;
+	  border-color: #8c8c8c;
+  border-left-style: none;
+background-image: linear-gradient(to right, #8c8c8c 35%, #dadada 45%, #b80000 65%,  #5f0e0e 85%,#363131 95% );
+}
+
+#os2{
+	
+	border-style: groove;
+	  border-color: #8c8c8c;
+  border-right-style: none;
+	
+background-image: linear-gradient(to left, #8c8c8c 25%, 	#dadada 35%, #b80000 55%,  	#5f0e0e 75%,#363131 90% );
+}
+
+#bw{
+		border-style: groove;
+	  border-color:  #00ccff;
+  border-left-style: none;
+background-image: linear-gradient(to right, #000000 35%,	#292929 45%, #00ccff  65%,  #292929 85%, #000000 95% );
+}
+#bw2{
+	
+	border-style: groove;
+	  border-color:  #00ccff;
+  border-right-style: none;
+background-image: linear-gradient(to left, #000000 35%,	#292929 45%, #00ccff  65%,  #292929 85%, #000000 95% );
+}
+#he{
+	border-style: groove;
+	  border-color: #79519a;
+  border-left-style: none;
+background-image: linear-gradient(to right, #79519a 35%, #a060ac 45%, #5f68ab 65%, 	#030303  85% , #000000 95% );
+}
+#he2{
+	
+	border-style: groove;
+	  border-color: #79519a;
+  border-right-style: none;
+background-image: linear-gradient(to left , #79519a 35%, #a060ac 45%, #5f68ab 65%, 	#030303  85%,  #000000 95% );
+}
+
+
+
+
+
+.button {
+	border:none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+   background: linear-gradient(to left, #00ccff 0%, #3333ff 101%);
+  border-radius :25px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 200%;
+  border-radius :25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+   /* margin: auto;*/
+  }
+}
+
